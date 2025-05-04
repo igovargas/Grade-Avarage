@@ -1,5 +1,6 @@
 public class GradeAvarage {
-    public static void main(String[] args) {
-        Scores.readScores();
+    public static void main() {
+        Calculation gradeAvarage = new Calculation();
+        gradeAvarage.scoreCalculation();
     }
 }
